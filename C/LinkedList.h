@@ -5,6 +5,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef struct SinglyLinkedList {
+typedef struct LinkedList {
 	struct Node* head;
-}; 
+} LinkedList; 
