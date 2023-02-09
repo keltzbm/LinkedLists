@@ -1,8 +1,8 @@
 #pragma once
 
-struct Node {
+typedef struct Node {
 	int data;
 	struct Node* next;
 };
 
-struct Node createNode(int data);
+Node* createNode(int data);
