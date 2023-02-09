@@ -6,6 +6,5 @@
 #include <stdlib.h>
 
 typedef struct SinglyLinkedList {
-	struct Node* head = NULL;
+	struct Node* head;
 }; 
-
